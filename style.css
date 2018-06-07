@@ -1,5 +1,9 @@
 /* styling general and Index-Bio page */
 
+* {
+    box-sizing: border-box;
+}
+
 .nameBox {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -17,19 +21,16 @@
 }
 
 .whiteBoxHeader {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
+
 }
 
 .whiteBoxBody {
-    border-style: solid;
-    border-width: 5px;
-    border-color: green;
+ 
 }
 
 #portrait {
     float: left;
+    margin: 1%;
 }
 
 /* styling Contact page */
@@ -74,7 +75,7 @@ input {
     width: 100%
 }
 
-textarea: {
+textarea {
 
     width: 100%
 }
@@ -85,15 +86,16 @@ textarea: {
     margin: 20px;
 }
 
-/* styling footer */
-
-
-.footer {
+footer {
     text-align: center;
-    position: absolute;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #666666;
+
+}
+
+.footerText {
+    line-height: 80px;
 }
